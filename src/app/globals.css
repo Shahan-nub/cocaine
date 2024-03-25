@@ -2,12 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Metal+Mania&family=Ramabhadra&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Mono+One&display=swap");
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-
+* {
+  scroll-behavior: smooth;
+}
+html {
+  scroll-behavior: smooth;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -15,15 +22,89 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: black;
+  overflow-x: hidden;
+}
+#BG {
+  /* background: url("../../public/bg1.avif"); */
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* width: auto; */
+  height:100vh;
+  width: 100%;
+  z-index: -1;
+  /* opacity: 0.27; */
+  opacity: 0.3;
+  background-size: cover;
+  animation: HERO_BG_LOOP 5s infinite ease-in-out,PARTICLES_SHOW 4s 1s 1 ease-in ;
+  /* animation: HERO_BG_LOOP  5s 3s infinite forwards ease-in-out; */
+}
+@keyframes PARTICLES_SHOW {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: .5;
+  }
+}
+
+@keyframes HERO_BG_LOOP {
+  0% {
+    scale: 1;
+    opacity: 0.5;
+  }
+  50% {
+    scale: 0.995;
+    opacity: 1;
+  }
+  100% {
+    scale: 1;
+    opacity: 0.5;
+  }
+}
+
+.HERO_TEXT {
+  opacity: 0;
+  animation: HERO_TEXT 1s .6s 1 forwards ease-in;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  
+}
+
+@keyframes HERO_TEXT {
+  0% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.HERO_TEXT_2 {
+  transform: translateY(500px);
+  opacity: 0;
+  animation: HERO_TEXT_2_UP 1s .6s 1 forwards ease-in-out;
+}
+@keyframes HERO_TEXT_2_UP {
+  0% {
+    opacity: 0;
+    /* transform: translateY(500px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @layer utilities {

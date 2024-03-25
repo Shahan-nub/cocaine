@@ -1,7 +1,6 @@
 "use client";
 import TitleGreen from "../ui/TitleGreen";
 import MembersCardMap from "./MembersCardMap";
-import MembersCardMapSwiper from "./MembersCardMapSwiper";
 import { motion } from "framer-motion";
 export default function OurTeam() {
   return (

@@ -66,7 +66,7 @@ const Navbar = () => {
                   : ""
               }`}
             >
-              Today's Deals
+              Explore
             </Link>
           </div>
           <div className="login flex items-center lg:gap-6">
@@ -127,7 +127,7 @@ const Navbar = () => {
             className="flex  text-color-2 items-center gap-2 px-4 py-2 mr-6 ml-6 hover:bg-color-1"
           >
             <MdOutlineLocalOffer />
-            Today's Deals
+            Explore
           </Link>
           <div className="my-4 border-t border-[#939393] mr-6 ml-6"></div>
         </div>

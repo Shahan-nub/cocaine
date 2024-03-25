@@ -34,7 +34,7 @@ export default function WhatWeDoCardsMap() {
       viewport={{ once: true }}
     >
       {CARD_DETAILS.map(({ imgSrc, title }) => {
-        return <WhatWeDoCard imgSrc={imgSrc} cardTitle={title}></WhatWeDoCard>;
+        return <WhatWeDoCard key={imgSrc} imgSrc={imgSrc} cardTitle={title}></WhatWeDoCard>;
       })}
     </motion.div>
   );

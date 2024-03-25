@@ -43,7 +43,7 @@ body {
   /* opacity: 0.27; */
   opacity: 0.3;
   background-size: cover;
-  animation: HERO_BG_LOOP 5s infinite ease-in-out,PARTICLES_SHOW 4s 1s 1 ease-in ;
+  animation: HERO_BG_LOOP 5s infinite ease-in-out,PARTICLES_SHOW 3s 1s 1 ease-in ;
   /* animation: HERO_BG_LOOP  5s 3s infinite forwards ease-in-out; */
 }
 @keyframes PARTICLES_SHOW {

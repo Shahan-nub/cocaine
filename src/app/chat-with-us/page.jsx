@@ -1,7 +1,7 @@
 "use client"
 import { useEffect } from "react";
 
-export default function page() {
+export default function ChatWithUs() {
     useEffect(() => {
         const script = document.createElement("script");
         script.src = "https://cdn.botpress.cloud/webchat/v0/inject.js";

@@ -1,9 +1,7 @@
 "use client";
-import OurTeam from "../TEAM/ourTeam";
 import TitleGray from "../ui/TitleGray";
 import TitleGreen from "../ui/TitleGreen";
 import WhatWeDoCardsMap from "./WhatWeDoCardsMap";
-import ParticlesComponent from "../HERO/Particles";
 import { motion } from "framer-motion";
 // import { document } from "postcss";
 

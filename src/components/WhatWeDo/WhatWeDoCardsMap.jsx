@@ -2,11 +2,11 @@ import WhatWeDoCard from "./WhatWeDoCard";
 import { motion } from "framer-motion";
 
 const CARD_DETAILS = [
-  { imgSrc: "assets/tick.gif", title: "Have a Business idea?" },
-  { imgSrc: "assets/code.png", title: "Have a dream project?" },
-  { imgSrc: "assets/convo.png", title: "Want to learn while working?" },
-  { imgSrc: "assets/event.gif", title: "Want to organise an event?" },
-  { imgSrc: "assets/graph.gif", title: "Want to grow and help others?" },
+  { imgSrc: "assets/tick.gif", title: "Idea?" },
+  { imgSrc: "assets/code.png", title: "Project?" },
+  { imgSrc: "assets/convo.png", title: "Need to upskill?" },
+  { imgSrc: "assets/event.gif", title: "New event?" },
+  { imgSrc: "assets/graph.gif", title: "Improve and Empower?" },
 ];
 
 const aboutUsAnimationVariant = {

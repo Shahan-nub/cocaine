@@ -21,7 +21,7 @@ export default function MemberCard({ imgSrc, name, designation }) {
         {designation}
       </p>
       <div
-        className={`flex group-hover:visible invisible transition-all duration-150 ease-in text-base lg:text-xl text-color-1 gap-5 lg:gap-7 mt-5 lg:mt-8 `}
+        className={`flex group-hover:opacity-100 lg:-translate-y-4 group-hover:translate-y-0 lg:opacity-0 transition-all duration-[500ms] ease-in-out text-base lg:text-xl text-color-1 gap-5 lg:gap-7 mt-5 lg:mt-8 `}
       >
         <Link target="_blank" href="/">
           <LuInstagram className="cursor-pointer hover:scale-110 "></LuInstagram>

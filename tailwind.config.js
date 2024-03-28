@@ -15,7 +15,7 @@ module.exports = {
       colors:{
         'color-1':'rgb(16 185 129)',
         'color-2':'#cbd5e1',
-        'color-3':'rgba(255, 255, 255, 0.1)',
+        'color-3':'#161616',
       },
     },
   },

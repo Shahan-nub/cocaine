@@ -1,6 +1,6 @@
 "use client"
 
-export default function WhatWeDoCard({imgSrc,cardTitle}) {
+export default function WhatWeDoCard({imgSrc,cardTitle,cardDesc}) {
   
   return (
     <div className="rounded-2xl hover:-translate-x-1 hover:-translate-y-1 transition-all duration-300 ease-in-out hover:shadow-[2px_2px_0_0_rgb(16_185_129)] md:basis-[28%] basis-[80%] font-serif flex flex-col lg:px-6 lg:py-8 px-4 py-6 bg-color-3 hover:from-color-3 hover:to-slate-500 ">
@@ -11,7 +11,7 @@ export default function WhatWeDoCard({imgSrc,cardTitle}) {
       </h2>
 
       <h4 className="text-gray-300 text-sm lg:text-base">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ex repudiandae, cupiditate quis atque soluta aspernatur mollitia repellendus libero, obcaecati officia! Aliquid voluptatum dicta aut quas ut accusamus nulla soluta eius minima! Ea, itaque fugiat eaque assumenda rerum ipsa eius.
+        {cardDesc}
       </h4>
     </div>
   )

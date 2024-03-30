@@ -23,7 +23,7 @@ const MEMBERS = [
     id: 4,
     name: "Shivanand Giri",
     designation: "Research Lead",
-    src: "/assets/members/shahan.jpg",
+    src: "/assets/members/shiv.jpg",
   },
   {
     id: 5,

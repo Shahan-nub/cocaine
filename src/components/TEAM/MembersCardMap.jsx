@@ -3,51 +3,33 @@ import { motion } from "framer-motion";
 const MEMBERS = [
   {
     id: 1,
-    name: "Shahan Ali Anwer",
+    name: "Dhritiman Talukdar",
     designation: "President",
-    src: "/assets/members/shahan.jpg",
+    src: "/assets/members/dman.jpg",
   },
   {
     id: 2,
     name: "Shahan Ali Anwer",
-    designation: "Vice President",
+    designation: "Tech Lead",
     src: "/assets/members/shahan.jpg",
   },
   {
     id: 3,
-    name: "Shahan Ali Anwer",
-    designation: "Operations Director",
-    src: "/assets/members/shahan.jpg",
+    name: "Atul Srivastav",
+    designation: "Design Lead",
+    src: "/assets/members/atul.jpg",
   },
   {
     id: 4,
-    name: "Shahan Ali Anwer",
-    designation: "Marketing Director",
+    name: "Shivanand Giri",
+    designation: "Research Lead",
     src: "/assets/members/shahan.jpg",
   },
   {
     id: 5,
-    name: "Shahan Ali Anwer",
-    designation: "Executive",
-    src: "/assets/members/shahan.jpg",
-  },
-  {
-    id: 6,
-    name: "Shahan Ali Anwer",
-    designation: "Executive",
-    src: "/assets/members/shahan.jpg",
-  },
-  {
-    id: 7,
-    name: "Shahan Ali Anwer",
-    designation: "Executive",
-    src: "/assets/members/shahan.jpg",
-  },
-  {
-    id: 8,
-    name: "Shahan Ali Anwer",
-    designation: "Executive",
-    src: "/assets/members/shahan.jpg",
+    name: "Karan Buragohain",
+    designation: "Marketing Lead",
+    src: "/assets/members/karan.jpg",
   },
 ];
 

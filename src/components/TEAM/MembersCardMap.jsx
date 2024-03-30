@@ -17,7 +17,7 @@ const MEMBERS = [
     id: 3,
     name: "Atul Srivastav",
     designation: "Design Lead",
-    src: "/assets/members/atul.jpg",
+    src: "/assets/members/atul.jpeg",
   },
   {
     id: 4,

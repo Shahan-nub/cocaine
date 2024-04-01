@@ -36,7 +36,7 @@ const MEMBERS = [
 export default function MembersCardMap() {
   return (
     <motion.div
-      className="flex gap-3 justify-center lg:gap-9 flex-wrap "
+      className="lg:hidden flex gap-3 justify-center lg:gap-9 mt-6 flex-wrap "
       initial={{
         opacity: 0,
         y: 120,

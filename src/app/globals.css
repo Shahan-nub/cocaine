@@ -112,3 +112,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.swiper-button-prev{
+  color: rgb(16 185 129);
+
+} 
+.swiper-button-next{
+  color: rgb(16 185 129);
+}

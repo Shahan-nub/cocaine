@@ -1,7 +1,9 @@
 "use client";
 import TitleGreen from "../ui/TitleGreen";
 import MembersCardMap from "./MembersCardMap";
+
 import { motion } from "framer-motion";
+import MembersCardMapSwiper from "./MembersCardMapSwiper";
 export default function OurTeam() {
   return (
     <div className="flex py-16 lg:py-28 flex-col items-center">
@@ -21,7 +23,7 @@ export default function OurTeam() {
         <TitleGreen title="Our Team" />
       </motion.div>
       <MembersCardMap></MembersCardMap>
-      {/* <MembersCardMapSwiper></MembersCardMapSwiper> */}
+      <MembersCardMapSwiper></MembersCardMapSwiper>
     </div>
   );
 }

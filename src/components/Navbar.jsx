@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="bg-black 2xl:px-20 lg:flex lg:justify-center min-w-screen max-w-[120rem] lg:px-6 lg:py-5 hidden z-10 h-[12vh]">
+      <div className=" backdrop-blur bg-opacity-50 2xl:px-20 lg:flex lg:justify-center min-w-screen max-w-[120rem] lg:px-6 lg:py-5 hidden z-10 h-[12vh]">
         <div className="2xl:gap-24  2xl:max-w-full 2xl:w-full w-screen flex g-8 justify-between items-center text-sm  px-2 lg:px-4 ">
           <div className="LOGO flex items-center">
             <RxCodesandboxLogo className="text-color-1  text-xl sm:text-2xl lg:text-5xl justify-self-start"></RxCodesandboxLogo>
@@ -29,11 +29,14 @@ const Navbar = () => {
           <div className="flex text-sm lg:gap-12 md:gap-9 justify-between items-center">
             <Link
               href="/"
-              className={`flex justify-center text-color-2 hover:text-white  gap-2 hover:scale-105 ${
+              className={`flex justify-center text-color-2 hover:text-white  gap-2 hover:scale-105 text-center
+               ${
                 usePathname() === "/"
-                  ? "border-2 border-color-1 pr-8 pl-8 pt-2 pb-2 bg-color-4 rounded-lg bg-opacity-25  backdrop-blur-sm"
+                  ? " border-color-1 border-b-2 px-2 pt-2 pb-2 bg-color-4  bg-opacity-25  backdrop-blur-sm"
                   : ""
-              }`}
+              }
+              `
+            }
             >
               Home
             </Link>
@@ -42,7 +45,7 @@ const Navbar = () => {
               href="#WhatWeDo"
               className={`flex 2xl:ml-auto justify-center text-color-2 hover:text-white  gap-2 hover:scale-105 ${
                 usePathname() === "#WhatWeDo"
-                  ? "border-2 border-color-1 pr-8  pl-8 pt-2 pb-2 rounded-lg bg-color-4 bg-opacity-25  backdrop-blur-sm"
+                  ? "border-color-1 border-b-2 px-2 pt-2 pb-2 bg-color-4  bg-opacity-25  backdrop-blur-sm"
                   : ""
               }`}
             >
@@ -52,7 +55,7 @@ const Navbar = () => {
               href="/websitebuilders"
               className={`flex justify-center text-color-2 hover:text-white  gap-2 hover:scale-105 ${
                 usePathname() === "/websitebuilders"
-                  ? "border-2 border-color-1 pr-8 pl-8  pt-2 pb-2 rounded-lg bg-color-4 bg-opacity-25  backdrop-blur-sm"
+                  ? "border-color-1 border-b-2 px-2 pt-2 pb-2 bg-color-4  bg-opacity-25  backdrop-blur-sm"
                   : ""
               }`}
             >
@@ -62,7 +65,7 @@ const Navbar = () => {
               href="/deals"
               className={`flex justify-center text-color-2 hover:text-white  gap-2 hover:scale-105 ${
                 usePathname() === "/deals"
-                  ? "border-2 border-color-1 pr-8 pl-8 pt-2 pb-2  rounded-lg bg-color-4 bg-opacity-25  backdrop-blur-sm"
+                  ? "border-color-1 border-b-2 px-2 pt-2 pb-2 bg-color-4  bg-opacity-25  backdrop-blur-sm"
                   : ""
               }`}
             >
@@ -132,7 +135,7 @@ const Navbar = () => {
           <div className="my-4 border-t border-[#939393] mr-6 ml-6"></div>
         </div>
       </div>
-      <hr className="hidden sm:block"/>
+      <hr className="hidden sm:block opacity-50"/>
     </>
   );
 };

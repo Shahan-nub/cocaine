@@ -65,6 +65,7 @@ const ParticlesComponent = ({id}) => {
       particles: {
         color: {
           value: "rgb(16, 185,129)",
+          
         },
         links: {
           color: "#FFFFFF",

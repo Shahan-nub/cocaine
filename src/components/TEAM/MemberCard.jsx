@@ -17,7 +17,7 @@ export default function MemberCard({ imgSrc, name, designation }) {
         {name}
       </h2>
 
-      <p className="text-color-2 font-normal lg:font-medium text-sm lg:text-base ">
+      <p className="text-color-2 font-normal lg:font-medium text-xs lg:text-base ">
         {designation}
       </p>
       <div
